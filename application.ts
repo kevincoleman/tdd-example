@@ -3,4 +3,6 @@ export const add = (x: number, y: number) => {
   return x + y
 }
 
-// TODO: Add a function for adding up multiple values
+export const addAll = (numbers: number[]) => {
+  // nothing here yet
+}
