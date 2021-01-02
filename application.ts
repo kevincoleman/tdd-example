@@ -4,5 +4,9 @@ export const add = (x: number, y: number) => {
 }
 
 export const addAll = (numbers: number[]) => {
-  // nothing here yet
+  let result = 0
+  numbers.forEach(number => {
+    result = add(result, number)
+  })
+  return result
 }
